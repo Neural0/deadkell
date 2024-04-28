@@ -1286,3 +1286,5 @@ function Library:Init(options)
 
 	return GUI
 end
+
+local main = Library:Init()
