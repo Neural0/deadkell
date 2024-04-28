@@ -1287,4 +1287,8 @@ function Library:Init(options)
 	return GUI
 end
 
+function Start()
+	Library:Init()
+end
+
 print("Source Executed")
