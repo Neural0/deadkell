@@ -3,7 +3,7 @@ local players		= game:GetService("Players")
 local tweenService	= game:GetService("TweenService")
 local runService	= game:GetService("RunService")
 local coreGui		= game:GetService("CoreGui")
-local UIS		= game:GetService("UserInputService")
+local UIS			= game:GetService("UserInputService")
 
 -- vars
 local localplayer 	= players.LocalPlayer
@@ -1286,9 +1286,3 @@ function Library:Init(options)
 
 	return GUI
 end
-
-function Start()
-	Library:Init()
-end
-
-print("Source Executed")
