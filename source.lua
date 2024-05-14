@@ -10,8 +10,6 @@ local localplayer 	= players.LocalPlayer
 local mouse 		= localplayer:GetMouse()
 local tweenInfo 	= TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut)
 
-local Library = {}
-
 -- QOL Functions
 function Library:validate(defaults, options)
 	for i,v in pairs(defaults) do
